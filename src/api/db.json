@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "nike 360",
+      "name": "Nike 360",
       "price": 20500,
       "stock": 9,
       "description": "Zapatillas de ultima generacion para el deporte",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "wilson advance",
+      "name": "Wilson advance",
       "price": 14500,
       "stock": 16,
       "description": "Ultra livianas y cuentan con camara de aire",
@@ -35,6 +35,15 @@
       "description": "Zapatillas de ultima generacion para el deporte",
       "category": "urbanas",
       "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg"
+    },
+    {
+      "name": "Jordan",
+      "price": 300000,
+      "stock": "10",
+      "description": "Las mejores zapatillas para saltar y esquivar la cachera que te pego tu novi@",
+      "category": "Sneakers",
+      "img": "https://i.ebayimg.com/images/g/ghcAAOSwRYZfy8J9/s-l500.jpg",
+      "id": 5
     }
   ]
 }
