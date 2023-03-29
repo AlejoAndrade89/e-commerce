@@ -2,9 +2,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Nike 360",
-      "price": 20500,
-      "stock": 9,
+      "name": "Nike 380",
+      "price": "8000",
+      "stock": "8",
       "description": "Zapatillas de ultima generacion para el deporte",
       "category": "deportivas",
       "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669326932/free-metcon-4-zapatillas-de-entrenamiento-TQMCZg_fvia3m.png"
@@ -28,22 +28,13 @@
       "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430165/images_lujpmr.jpg"
     },
     {
-      "id": 4,
-      "name": "Jaguar",
-      "price": 17800,
-      "stock": 7,
-      "description": "Zapatillas de ultima generacion para el deporte",
-      "category": "urbanas",
-      "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg"
-    },
-    {
-      "name": "Jordan",
+      "name": "Jordan Max",
       "price": 300000,
-      "stock": "10",
-      "description": "Las mejores zapatillas para saltar y esquivar la cachera que te pego tu novi@",
+      "stock": "20",
+      "description": "Las zapatillas mas caras del mercado",
       "category": "Sneakers",
       "img": "https://i.ebayimg.com/images/g/ghcAAOSwRYZfy8J9/s-l500.jpg",
-      "id": 5
+      "id": 4
     }
   ]
 }

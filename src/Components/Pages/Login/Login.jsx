@@ -1,5 +1,4 @@
-import { Visibility, VisibilityOff } from "@mui/icons-material";
-import Swal from "sweetalert2";
+import { Visibility, VisibilityOff, ArrowBack } from "@mui/icons-material";
 import {
   Box,
   FormControl,
@@ -12,32 +11,37 @@ import {
   Stack,
   Button,
 } from "@mui/material";
-import React, { useState } from "react";
+import "./Login.css";
 
-export const Form = () => {
-  const dispararAlerta = () => {
-    Swal.fire({
-      position: "center",
-      icon: "success",
-      title: "Your work has been saved",
-      showConfirmButton: false,
-      timer: 1500,
-    });
-  };
-
-  const [showPassword, setShowPassword] = useState(false);
-
-  const handleClickShowPassword = () => setShowPassword(!showPassword);
-
+export const Login = ({
+  dispararAlerta,
+  handleClickShowPassword,
+  showPassword,
+}) => {
   return (
     <div>
       <Box
+        className="login-container"
         sx={{
           width: "100%",
           minHeight: "100vh",
           padding: "10px 30px",
         }}
       >
+        <IconButton
+          aria-label="volver"
+          sx={{
+            marginBottom: 2,
+            bgcolor: "#f1f1f1",
+            color: "#333",
+            "&:hover": {
+              bgcolor: "lightBlue",
+            },
+          }}
+          onClick={() => window.history.back()}
+        >
+          <ArrowBack sx={{ fontSize: 40 }} />
+        </IconButton>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6}>
             <TextField label="Name" variant="outlined" fullWidth />
