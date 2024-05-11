@@ -35,6 +35,15 @@
       "category": "Sneakers",
       "img": "https://i.ebayimg.com/images/g/ghcAAOSwRYZfy8J9/s-l500.jpg",
       "id": 4
+    },
+    {
+      "name": "Martillo Stilleto ",
+      "price": 1500000,
+      "stock": "10",
+      "description": "Stiletto TB3MC Martillo de titanio Ti-Bone 3 de 15 onzas con cara fresada, mango curvado y nuevo modelo mejorado de cara antirrotación",
+      "category": "Carpinteria",
+      "img": "https://www.toolboxbuzz.com/wp-content/uploads/2015/04/Stiletto-TI14MC-F.jpg",
+      "id": 5
     }
   ]
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createProduct } from "../../../services/ProductServices";
+import { createProduct } from "../../../services/productServices";
 import { CreateProduct } from "./CreateProduct";
 import Swal from "sweetalert2";
 

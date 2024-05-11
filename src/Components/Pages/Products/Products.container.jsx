@@ -6,7 +6,7 @@ import {
   deleteProduct,
   getProductos,
   updateProduct,
-} from "../../../services/ProductServices";
+} from "../../../services/productServices";
 import { Products } from "./Products";
 
 export const ProductsContainer = () => {
